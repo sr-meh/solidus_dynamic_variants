@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class DynamicCartLineItemsController < Spree::StoreController
-  helper 'spree/products', 'orders'
+  helper 'spree/products', 'spree/orders'
 
   respond_to :html
 
